@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atelier Homes | Luxury Interiors</title>
 
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+margin:0;
+background:#f5f1e9;
+color:#292720;
+font-family:Arial,sans-serif;
+}
+header{
+padding:25px 6%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:20px;
+background:#f5f1e9;
+}
+.logo{
+font-family:Georgia,serif;
+font-size:28px;
+letter-spacing:4px;
+}
+nav a{
+color:#292720;
+text-decoration:none;
+margin:8px;
+font-size:14px;
+}
+.hero{
+min-height:85vh;
+background:linear-gradient(#0005,#0007),
+url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1800&auto=format&fit=crop') center/cover;
+background-color:#403b32;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:40px 20px;
+}
+h1{
+font-family:Georgia,serif;
+font-size:clamp(42px,7vw,85px);
+font-weight:normal;
+margin:20px 0;
+}
+h2{
+font-family:Georgia,serif;
+font-size:40px;
+font-weight:normal;
+}
+p{line-height:1.8}
+.btn{
+display:inline-block;
+padding:16px 30px;
+background:#b49b76;
+color:#171510;
+text-decoration:none;
+margin-top:20px;
+}
+section{
+padding:75px 8%;
+text-align:center;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+margin-top:35px;
+}
+.card{
+background:white;
+padding:30px;
+}
+.card h3{
+font-family:Georgia,serif;
+font-size:25px;
+font-weight:normal;
+}
+.project{
+background:white;
+padding-bottom:20px;
+}
+.project img{
+width:100%;
+height:320px;
+object-fit:cover;
+}
+.dark{
+background:#24231f;
+color:#f5f1e9;
+}
+footer{
+background:#171714;
+color:#c8bda9;
+padding:30px;
+text-align:center;
+font-size:13px;
+}
+@media(max-width:600px){
+header{justify-content:center}
+nav{text-align:center}
+section{padding:50px 6%}
+h2{font-size:32px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">ATELIER HOMES</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<p>TIMELESS DESIGN · REFINED LIVING</p>
+<h1>Spaces That<br>Tell Your Story.</h1>
+<p>Thoughtfully designed interiors for extraordinary living.</p>
+<a class="btn" href="#projects">Explore Our Concepts</a>
+</div>
+
+<section id="about">
+<p>THE DESIGN PHILOSOPHY</p>
+<h2>Where Elegance Meets Comfort.</h2>
+<p>Atelier Homes is a fictional interior design studio concept celebrating timeless materials, thoughtful spaces and understated luxury.</p>
+</section>
+
+<section class="dark" id="services">
+<h2>Our Design Services</h2>
+
+<div class="grid">
+
+<div>
+<h3>01 — Residential Interiors</h3>
+<p>Elegant and comfortable living spaces.</p>
+</div>
+
+<div>
+<h3>02 — Commercial Interiors</h3>
+<p>Distinctive spaces for modern businesses.</p>
+</div>
+
+<div>
+<h3>03 — Space Planning</h3>
+<p>Thoughtful layouts balancing beauty and functionality.</p>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<p>DESIGN INSPIRATION</p>
+<h2>Selected Concepts</h2>
+
+<div class="grid">
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=900&auto=format&fit=crop" alt="Elegant living room inspiration" loading="lazy">
+<h3>The Modern Residence</h3>
+<p>Contemporary Living Concept</p>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&auto=format&fit=crop" alt="Minimal interior inspiration" loading="lazy">
+<h3>The Urban Retreat</h3>
+<p>Minimal Luxury Concept</p>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=900&auto=format&fit=crop" alt="Refined home interior inspiration" loading="lazy">
+<h3>The Timeless Home</h3>
+<p>Refined Interior Concept</p>
+</div>
+
+</div>
+</section>
+
+<section class="dark" id="contact">
+<h2>Inspired by This Design?</h2>
+<p>Request a custom website for your own business from ARV Digital.</p>
+
+<a class="btn" href="mailto:arvdigitalstudio16@gmail.com?subject=Website%20Design%20Enquiry">
+Get Your Website
+</a>
+</section>
+
+<footer>
+ATELIER HOMES<br><br>
+A fictional website concept designed by ARV Digital.
+<br>
+Photography used for design inspiration.
+<br><br>
+<a style="color:#b49b76" href="https://ganeshamtomesh2022-oss.github.io/ARV-DIGITAL-STUDIO/">
+Visit ARV Digital
+</a>
+</footer>
+
+</body>
+</html>
